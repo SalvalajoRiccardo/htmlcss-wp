@@ -4,11 +4,43 @@
     padding: 0;
 }
 
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+/* inizio header */
 header {
     height: 100px;
-    background-color: violet;
+    /* background-color: violet; */
     margin-bottom: 20px;
 }
+
+#logo {
+    height: 50%;
+}
+
+.navigatore {
+    line-height: 50px;
+}
+
+.navigatore a {
+    text-decoration: none;
+    color: grey ;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.navigatore li {
+    margin: 0 10px;
+}
+
 
 /* inizio main */
 
