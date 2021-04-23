@@ -64,13 +64,23 @@ header {
     line-height: 30px;
 
 }
+
+
 /* fine parte sup */
 
 /* inizio parte inf */
 .titolo-articolo {
     height: 70px;
-    background-color: lightblue;
+    /* background-color: lightblue; */
     
+}
+
+.titolo-articolo h3 {
+    font-size: 30px;
+}
+
+.titolo-articolo p {
+    color: grey;
 }
 
 /* inizio corpo articolo */
@@ -82,7 +92,8 @@ header {
 
 .articolo {
     /* height: 500px; poi va tolto */
-    background-color: blue;
+    /* background-color: blue; */
+    margin-bottom: 20px;
 }
 
 .corpo-articolo {
