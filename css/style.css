@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    background-color: violet;
+    margin-bottom: 20px;
+}
+
+/* inizio main */
+
+/* inizio parte sup */
+.jumbotron {
+    height: 400px; /* poi va tolto */
+    background-color: yellowgreen;
+    margin-bottom: 20px;
+}
+/* fine parte sup */
+
+/* inizio parte inf */
+.titolo-articolo {
+    height: 70px;
+    background-color: lightblue;
+    
+}
+
+/* inizio corpo articolo */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.articolo {
+    /* height: 500px; poi va tolto */
+    background-color: blue;
+}
+
+.corpo-articolo {
+    height: 450px; /* poi va tolto */
+    padding: 20px 0;
+
+}
+
+.laterale {
+    height: 100%;
+    width: 20%;
+    
+}
+
+.centrale {
+    height: 100%;
+    width: calc(60% - 30px) ;
+    margin: 0 15px;
+
+
+}
+
+.float-left {
+    float: left;
+    background-color: lightblue;
+}
+
+
+/* fine parte inf */
+
+/* fine main */
+footer {
+    height: 50px;
+    background-color: purple;
+    margin-top: 10px;
+}
