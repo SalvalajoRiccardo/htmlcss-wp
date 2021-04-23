@@ -52,11 +52,13 @@ header {
 .jumbotron {
     height: 400px; 
     color: white;
-    background-image: url(../img/banner.jpg);
     margin-bottom: 20px;
     padding-top: 250px;
     padding-left: 40px;
     border-radius: 20px;
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .jumbotron h3 {
@@ -97,14 +99,20 @@ header {
 }
 
 .corpo-articolo {
-    height: 450px; /* poi va tolto */
+    /* height: 450px; poi va tolto */
     padding: 20px 0;
 
+}
+
+.imgcentrata {
+    width: 100%;
+    object-fit: cover;
 }
 
 .laterale {
     height: 100%;
     width: 20%;
+
     
 }
 
@@ -118,8 +126,19 @@ header {
 
 .float-left {
     float: left;
-    background-color: lightblue;
+    /* background-color: lightblue; */
 }
+
+.corpo-articolo img {
+    height: 200px;
+    display: block;
+}
+
+.corpo-articolo p {
+    color: grey;
+}
+
+
 
 
 /* fine parte inf */
@@ -127,6 +146,13 @@ header {
 /* fine main */
 footer {
     height: 50px;
-    background-color: purple;
+    /* background-color: purple; */
     margin-top: 10px;
+    text-align: center;
 }
+
+.heart {
+    color: red;
+}
+
+
