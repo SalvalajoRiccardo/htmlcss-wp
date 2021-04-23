@@ -15,6 +15,10 @@ li {
     display: inline-block;
 }
 
+.sansserif {
+    font-family: sans-serif;
+}
+
 /* inizio header */
 header {
     height: 100px;
@@ -34,7 +38,7 @@ header {
     text-decoration: none;
     color: grey ;
     text-transform: uppercase;
-    font-family: sans-serif;
+    
 }
 
 .navigatore li {
@@ -47,7 +51,7 @@ header {
 /* inizio parte sup */
 .jumbotron {
     height: 400px; /* poi va tolto */
-    background-color: yellowgreen;
+    background-image: url(../img/banner.jpg);
     margin-bottom: 20px;
 }
 /* fine parte sup */
